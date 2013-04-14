@@ -137,7 +137,7 @@ public class TodoListManagerActivity extends Activity {
     		Task taskToAdd=new Task(taskName, taskDate);
     		adapter.add(taskToAdd);
     		tdd.insert(taskToAdd);//TODO: to remove
-    		tdd.update(new Task(taskToAdd.getTitle(), new Date())); 
+    		//tdd.update(new Task(taskToAdd.getTitle(), new Date())); 
     	}
     }
     
