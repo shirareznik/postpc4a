@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class TasksDatabaseHelper extends SQLiteOpenHelper {
 
 	public TasksDatabaseHelper(Context context) {
-		super(context, "todo_db.db", null, 1);//change back from .db
+		super(context, "todo_db", null, 1);//change back from .db
 	}
 
 	@Override
